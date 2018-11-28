@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
+
 Route::get('/user','UserController@index');
-=======
+
 Route::get('/test','TestingController@index');
->>>>>>> master
+
