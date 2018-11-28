@@ -10,4 +10,9 @@ class TestingController extends Controller
     {
     	return view('test/index');
     }
+
+    public function create()
+    {
+    	return view('test.index');
+    }
 }
